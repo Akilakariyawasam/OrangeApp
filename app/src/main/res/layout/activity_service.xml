@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_picture1">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_logo"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MERCHANT APP"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginStart="100dp" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/iv_electric"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_electric"
+            android:background="@drawable/imageview_border"/>
+
+        <ImageView
+            android:id="@+id/iv_light"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_light"
+            android:background="@drawable/imageview_border"/>
+
+        <ImageView
+            android:id="@+id/iv_industry"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_industry"
+            android:background="@drawable/imageview_border"/>
+
+        <ImageView
+            android:id="@+id/iv_it"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_it"
+            android:background="@drawable/imageview_border"/>
+
+    </GridLayout>
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/orangeadd"/>
+
+
+</RelativeLayout>
