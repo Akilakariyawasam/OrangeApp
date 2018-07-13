@@ -66,12 +66,14 @@
                 android:text="Casablanca"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
 
             <ImageView
                 android:id="@+id/iv_casblanca"
                 android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:src="@drawable/ic_cwbs"/>
 
             </LinearLayout>
@@ -88,10 +90,12 @@
                 android:text="Monaco"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:src="@drawable/ic_monaco" />
             </LinearLayout>
 
@@ -108,12 +112,15 @@
                 android:text="Akoyo"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
 
             <ImageView
                 android:layout_width="80dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_akayo"/>
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_akayo"
+                />
             </LinearLayout>
 
             <LinearLayout
@@ -129,11 +136,13 @@
                 android:text="Enigma"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
 
             <ImageView
                 android:layout_width="80dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                 android:layout_marginTop="5dp"
                 android:src="@drawable/ic_enigma"/>
             </LinearLayout>
 
@@ -150,11 +159,13 @@
                 android:text="Scintilla"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                 android:layout_marginTop="5dp"
                 android:src="@drawable/ic_cintillia"/>
             </LinearLayout>
 
@@ -171,11 +182,13 @@
                 android:text="Virago"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
 
             <ImageView
                 android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                 android:layout_marginTop="5dp"
                 android:src="@drawable/ic_virago"/>
             </LinearLayout>
 
@@ -192,10 +205,12 @@
                 android:text="Exeter"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
             <ImageView
                 android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                 android:layout_marginTop="5dp"
                 android:src="@drawable/ic_exeter"/>
             </LinearLayout>
 
@@ -212,10 +227,12 @@
                 android:text="Sparta"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
             <ImageView
                 android:layout_width="220dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
+                 android:layout_marginTop="5dp"
                 android:src="@drawable/ic_sparta" />
             </LinearLayout>
 
