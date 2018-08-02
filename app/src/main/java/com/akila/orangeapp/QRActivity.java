@@ -104,7 +104,7 @@ public class QRActivity extends AppCompatActivity{
 
         LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
                 new IntentFilter("Parameter.FCM_PUSH_NOTIFICATION"));
-        FirebaseMessaging.getInstance().subscribeToTopic("orange");
+        FirebaseMessaging.getInstance().subscribeToTopic("all");
 
 
 
