@@ -154,13 +154,15 @@
                 android:background="@drawable/textview_border"
                 android:textColor="@color/white"
                 android:layout_marginLeft="2dp"/>
+
             <Spinner
                 android:id="@+id/spin1"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
                 style="@style/Spinner"
-                android:layout_marginLeft="5dp"/>
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@color/black"
+                android:spinnerMode="dropdown" />
             <CheckBox
                 android:id="@+id/check1"
                 android:layout_width="wrap_content"
@@ -185,13 +187,15 @@
                 android:textColor="@color/white"
                 android:background="@drawable/textview_border"
                 android:layout_marginLeft="2dp"/>
+
             <Spinner
                 android:id="@+id/spin2"
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
                 style="@style/Spinner"
-                android:layout_marginLeft="5dp"/>
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"  />
             <CheckBox
                 android:id="@+id/check2"
                 android:layout_width="wrap_content"
@@ -218,9 +222,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin3"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -249,9 +254,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin4"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -279,9 +285,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin5"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -309,9 +316,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin6"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -339,9 +347,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin7"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -370,9 +379,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin8"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -400,9 +410,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin9"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -430,9 +441,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin10"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -460,9 +472,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin11"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -490,9 +503,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin12"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -521,9 +535,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin13"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -552,9 +567,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin14"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -583,9 +599,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin15"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -614,9 +631,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin16"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -645,9 +663,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin17"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -676,9 +695,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin18"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -707,9 +727,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin19"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -738,9 +759,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin20"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -769,9 +791,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin21"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
@@ -800,9 +823,10 @@
                 android:background="@drawable/textview_border"/>
             <Spinner
                 android:id="@+id/spin22"
-                android:layout_width="70dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
+                 android:background="@color/black"
+ android:spinnerMode= "dropdown"
                 style="@style/Spinner"
                 android:layout_marginLeft="5dp"/>
             <CheckBox
