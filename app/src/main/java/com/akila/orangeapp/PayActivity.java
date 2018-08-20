@@ -79,8 +79,7 @@ public class PayActivity extends AppCompatActivity implements AdapterView.OnItem
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PayActivity.this, SwitchActivity.class);
-                startActivity(intent);
+               finish();
             }
         });
 
@@ -88,8 +87,7 @@ public class PayActivity extends AppCompatActivity implements AdapterView.OnItem
         backText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PayActivity.this, SwitchActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
         btnPay = findViewById(R.id.btn_pay);

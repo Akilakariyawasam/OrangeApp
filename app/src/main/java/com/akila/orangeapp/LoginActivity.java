@@ -30,6 +30,7 @@ public static String UserName="";
                 Intent intent = new Intent(LoginActivity.this, ServiceActivity.class);
                 //intent.putExtra("name",userText.getText());
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -37,32 +38,5 @@ public static String UserName="";
         UserName = userText.getText().toString();
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        Intent intent = new Intent(Intent.ACTION_MAIN);
-        intent.addCategory(Intent.CATEGORY_HOME);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
 
-        final AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
-        builder.setTitle("Exit");
-        builder.setMessage("Are you sure want to exit?");
-        builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                System.exit(0);
-            }
-        });
-        builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                System.exit(0);
-            }
-        });
-        builder.show();
-
-
-
-    }
 }

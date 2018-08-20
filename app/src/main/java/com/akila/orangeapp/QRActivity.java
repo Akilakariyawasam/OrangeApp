@@ -45,8 +45,7 @@ public class QRActivity extends AppCompatActivity{
         backImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(QRActivity.this, PayActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
 
@@ -54,8 +53,7 @@ public class QRActivity extends AppCompatActivity{
         backText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(QRActivity.this, PayActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
 

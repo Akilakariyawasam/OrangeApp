@@ -48,4 +48,6 @@ public class ElectricActivity extends AppCompatActivity{
         });
 
     }
+
+
 }
