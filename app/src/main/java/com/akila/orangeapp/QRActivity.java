@@ -78,7 +78,7 @@ public class QRActivity extends AppCompatActivity{
 
         Log.d(TAG, "onCreate: Total: " + PayActivity.total);
 
-        String code = "9f53a89a-f1e3-4899-b68d-2d6ba449f014 " + PayActivity.total +"0"+ " main " +  Integer.toString(orderId);  //String code for qr
+        String code = "6e5dbc6a-784e-4f4b-a169-c1d2acac4d6c " + PayActivity.total +"0"+ " main " +  Integer.toString(orderId);  //String code for qr
         Log.d(TAG, "onCreate: Code: " +code);
 
         DisplayMetrics displayMetrics = new DisplayMetrics();

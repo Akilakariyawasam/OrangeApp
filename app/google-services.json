@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "11190019968",
-    "firebase_url": "https://directpay-ae7bf.firebaseio.com",
-    "project_id": "directpay-ae7bf",
-    "storage_bucket": "directpay-ae7bf.appspot.com"
+    "project_number": "571716383976",
+    "firebase_url": "https://orelpay-test-4712b.firebaseio.com",
+    "project_id": "orelpay-test-4712b",
+    "storage_bucket": "orelpay-test-4712b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:11190019968:android:652c011da1a2c4f9",
+        "mobilesdk_app_id": "1:571716383976:android:dd1d86f139b66fb6",
         "android_client_info": {
-          "package_name": "com.paymedia.directpay_cargills"
+          "package_name": "com.orelpay.userapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "11190019968-q7oqn587femq46ltdull2smnjfenn2c9.apps.googleusercontent.com",
+          "client_id": "571716383976-jiliecmvnp13dk57354oc7153as479bg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCN47M5HcwGraS18WAKTFPj9InNBNbIgi8"
+          "current_key": "AIzaSyCv5azfoNHYc0su2XAHvtTTfESNJad3eX8"
         }
       ],
       "services": {
@@ -39,20 +39,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:11190019968:android:80b972d83ecdc9fa",
+        "mobilesdk_app_id": "1:571716383976:android:80b972d83ecdc9fa",
         "android_client_info": {
           "package_name": "com.paymedia.supplychain"
         }
       },
       "oauth_client": [
         {
-          "client_id": "11190019968-q7oqn587femq46ltdull2smnjfenn2c9.apps.googleusercontent.com",
+          "client_id": "571716383976-jiliecmvnp13dk57354oc7153as479bg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCN47M5HcwGraS18WAKTFPj9InNBNbIgi8"
+          "current_key": "AIzaSyCv5azfoNHYc0su2XAHvtTTfESNJad3eX8"
         }
       ],
       "services": {
